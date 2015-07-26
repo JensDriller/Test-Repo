@@ -13,4 +13,3 @@ deploy:
   key:
     secure: lIwOeiy+h1UCtE9kyWx7sfP7xOto+K8T5ZN+F6mg3gJ//MwZO9cuqm39OZgmqxLDk8JPY48z/KOQ7JMTtFUYk70WfwFcH8VyA2QdJfRUJjDGDYew7v1BSRnrcCuabea+p1chp7VImZTpGnaD7rD5Ric2skYr3CYYD1aqMIjKWHw=
 #  passphrase: Optional. In case a passphrase is configured on Bintray and GPG signing is used
-  dry-run: true
