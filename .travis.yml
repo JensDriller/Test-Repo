@@ -12,4 +12,5 @@ deploy:
   user: jenzz
   key:
     secure: lIwOeiy+h1UCtE9kyWx7sfP7xOto+K8T5ZN+F6mg3gJ//MwZO9cuqm39OZgmqxLDk8JPY48z/KOQ7JMTtFUYk70WfwFcH8VyA2QdJfRUJjDGDYew7v1BSRnrcCuabea+p1chp7VImZTpGnaD7rD5Ric2skYr3CYYD1aqMIjKWHw=
-#  passphrase: Optional. In case a passphrase is configured on Bintray and GPG signing is used
+  passphrase:
+    secure: XvWhCAEOZZUX40KRiUyn2StyHr6EvT4gh+KruUsyAWyjcz0stPf5gKwl5Kn57cnU6ESEhXhWpV/IrVP6TmBMTisE5NKiMbAWJjfPAwkgpAF/J9AmxCDRTAUuTjjoqVGYozdcF+2twRXqyKOg5LigpOO3XH1xSFjA5ndLQEZC4Y0=
