@@ -12,5 +12,6 @@
 
     <artifactId>sub1</artifactId>
     <name>Java-Test-Sub1</name>
+    <packaging>jar</packaging>
 
 </project>
