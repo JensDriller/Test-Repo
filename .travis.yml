@@ -1,14 +1,13 @@
 language: java
 
 jdk:
-- oraclejdk7
-- oraclejdk8
+  - oraclejdk7
+  - oraclejdk8
 
-script: mvn clean install
+after_success:
+  - scripts/deploy_snapshot.sh
 
-deploy:
-  provider: bintray
-  file: bintray.config
-  user: jenzz
-  key:
-    secure: lIwOeiy+h1UCtE9kyWx7sfP7xOto+K8T5ZN+F6mg3gJ//MwZO9cuqm39OZgmqxLDk8JPY48z/KOQ7JMTtFUYk70WfwFcH8VyA2QdJfRUJjDGDYew7v1BSRnrcCuabea+p1chp7VImZTpGnaD7rD5Ric2skYr3CYYD1aqMIjKWHw=
+env:
+  global:
+    secure: "MFPDx/uFKi8sscvGWFc35iweJ0rnY/yVSXc+34uEiYFVmnmNP+Dw94yqU+fZOr7puHl/2k4l+1+ZiWS2W3yIK1JObWQfTyhujFySVwErQADjhYG8f4VqtnnFArXuPKA4isKd2HfP8L075tZmUAr2ztFZrl1NDSir9IByIFWjJeo="
+    secure: "ZFILiQTONdfMLfqayQF5K9gNaB0FnjSFBRKJGXzAjvVaco22DWnqBnrQAZymynPKUNWa47ufD59642ORliw+e9vvVRFPJDKzLOgGw/7Ac3lrwYxva4EcHd8ryqOIdI4gYKeopPNNCOcPUxcNvLNnAAiR8sb2tvGHVdO+vpuQTnQ="
