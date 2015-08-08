@@ -10,7 +10,7 @@
 
     <groupId>com.jenzz.test</groupId>
     <artifactId>test</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Java-Test</name>
