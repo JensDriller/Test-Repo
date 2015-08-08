@@ -9,5 +9,5 @@ after_success:
 
 env:
   global:
-    secure: "MFPDx/uFKi8sscvGWFc35iweJ0rnY/yVSXc+34uEiYFVmnmNP+Dw94yqU+fZOr7puHl/2k4l+1+ZiWS2W3yIK1JObWQfTyhujFySVwErQADjhYG8f4VqtnnFArXuPKA4isKd2HfP8L075tZmUAr2ztFZrl1NDSir9IByIFWjJeo="
-    secure: "ZFILiQTONdfMLfqayQF5K9gNaB0FnjSFBRKJGXzAjvVaco22DWnqBnrQAZymynPKUNWa47ufD59642ORliw+e9vvVRFPJDKzLOgGw/7Ac3lrwYxva4EcHd8ryqOIdI4gYKeopPNNCOcPUxcNvLNnAAiR8sb2tvGHVdO+vpuQTnQ="
+    - secure: "MFPDx/uFKi8sscvGWFc35iweJ0rnY/yVSXc+34uEiYFVmnmNP+Dw94yqU+fZOr7puHl/2k4l+1+ZiWS2W3yIK1JObWQfTyhujFySVwErQADjhYG8f4VqtnnFArXuPKA4isKd2HfP8L075tZmUAr2ztFZrl1NDSir9IByIFWjJeo="
+    - secure: "ZFILiQTONdfMLfqayQF5K9gNaB0FnjSFBRKJGXzAjvVaco22DWnqBnrQAZymynPKUNWa47ufD59642ORliw+e9vvVRFPJDKzLOgGw/7Ac3lrwYxva4EcHd8ryqOIdI4gYKeopPNNCOcPUxcNvLNnAAiR8sb2tvGHVdO+vpuQTnQ="
