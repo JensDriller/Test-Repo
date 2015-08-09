@@ -20,6 +20,7 @@
     <modules>
         <module>Java-Test-Sub1</module>
         <module>Java-Test-Sub2</module>
+        <module>Java-Test-Sub3-Excluded</module>
     </modules>
 
     <issueManagement>
